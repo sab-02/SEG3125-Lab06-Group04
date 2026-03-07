@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<! IMPORTANT to use a CSS file - external >
+	<link href="style.css" rel="stylesheet" type="text/css">
+    <title> UI Questionnaire</title>
+  </head>
+  
+  <body>
+	<h1>Shoppers' Website Survey</h1>
+	<form id="myform" action="index.php" >
+	<br>
+	<! Choose a website to evaluate >
+	<h2>What do you think of the UI in this <a href="https://www.shoppersdrugmart.ca/">Shoppers</a> site?</h2>	
+	<br>
+	<br>
+	<! You should make your image clickable>
+	<a href="https://www.shoppersdrugmart.ca/">
+		<img src="shoppers.png" alt="https://www.shoppersdrugmart.ca/" width="450" height="300">
+	</a>
+	<br>
+	<br>
+	
+	<div class="question">
+		<h2>When browsing the Shoppers Drug Mart website, what feature or page do you use most often?</h2>
+		<input type="text" id="most_used" name="most_used">
+
+		<h2>What is one UI change that would make the Shoppers Drug Mart website easier to use?</h2>
+		<input type="text" id="ui_change" name="ui_change">
+
+		<h2>How visually appealing do you find the Shoppers Drug Mart website interface? </h2>
+		<input type="radio" name="appealing" value="Very appealing">Very appealing<br>
+		<input type="radio" name="appealing" value="Appealing">Appealing<br>
+		<input type="radio" name="appealing" value="Neutral">Neutral<br>
+		<input type="radio" name="appealing" value="Unappealing">Unappealing<br>
+		
+		
+		<h2>How long did it take you to find the product you were looking for?</h2>
+        <select id="time" name="time">
+            <option value="">Select</option>
+            <option value="less_than_one">Less than 1 minute</option>
+            <option value="1_to_3">1 – 3 minutes</option>
+            <option value="3_to_5">3 – 5 minutes</option>
+            <option value="more_than_5">More than 5 minutes</option>
+            <option value="not_found">I could not find it</option>
+        </select>
+
+		<h2>Which UI elements work well on the Shoppers Drug Mart website?</h2>
+
+		<input type="checkbox" id="navigation" name="ui_elements" value="navigation">
+		<label for="navigation">Navigation menu</label><br>
+
+		<input type="checkbox" id="search" name="ui_elements" value="search">
+		<label for="search">Search bar</label><br>
+
+		<input type="checkbox" id="filters" name="ui_elements" value="filters">
+		<label for="filters">Product filters</label><br>
+
+		<input type="checkbox" id="layout" name="ui_elements" value="layout">
+		<label for="layout">Page layout and spacing</label><br>
+
+		<input type="checkbox" id="readability" name="ui_elements" value="readability">
+		<label for="readability">Text readability (fonts and contrast)</label><br>
+
+		<input type="checkbox" id="checkout" name="ui_elements" value="checkout">
+		<label for="checkout">Checkout process</label><br>
+
+		<input type="checkbox" id="responsive" name="ui_elements" value="responsive">
+		<label for="responsive">Mobile responsiveness</label><br><br>
+
+		<label for="comments">Please share any additional feedback about the website’s design, layout, or usability.</label><br>
+		<textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+	</div>
+	
+	<br>
+	<br>
+		
+				
+	<button id="submitButton" type="button" class="block">
+		Submit
+	</button>
+		
+	<p id="signature">Site created by Group 4</p>	
+	
+	</form>
+  </body>
+</html> 
