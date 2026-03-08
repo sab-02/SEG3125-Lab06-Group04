@@ -12,6 +12,10 @@ app.use(express.static(path.join(__dirname, "public")));
 const serverRoutes = require("./server");
 app.use("/api", serverRoutes);
 
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "survey.html"));
+});
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);

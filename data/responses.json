@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "most_used": "Test",
+    "ui_change": "Test2",
+    "appealing": "Appealing",
+    "time": "1 – 3 minutes",
+    "features": [
+      "filters",
+      "checkout"
+    ],
+    "feedback": "jsdhfkjsh"
+  },
+  {
+    "most_used": "tryingTest",
+    "ui_change": "nothing",
+    "appealing": "Unappealing",
+    "time": "More than 5 minutes",
+    "features": [
+      "navigation"
+    ],
+    "feedback": "jfngjfd"
+  }
+]
