@@ -58,11 +58,18 @@ body: JSON.stringify(data)
 
 const result = await response.json();
 
-alert("Survey submitted successfully!");
+document.getElementById("successMessage").classList.remove("d-none");
+document.getElementById("myform").reset();
+
+window.scrollTo({ top: 0, behavior: "smooth" });
+
+setTimeout(() => {
+document.getElementById("successMessage").classList.add("d-none");
+}, 3000);
 
 } catch (error) {
 console.error(error);
-alert("Error submitting survey");
+document.getElementById("errorMessage").classList.remove("d-none");
 }
 
 });

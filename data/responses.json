@@ -29,5 +29,37 @@
       "navigation"
     ],
     "feedback": "ayo bb"
+  },
+  {
+    "most_used": "Search",
+    "ui_change": "Better scroll button",
+    "appealing": "Appealing",
+    "time": "Less than 1 minute",
+    "features": [
+      "navigation",
+      "search"
+    ],
+    "feedback": "Very good website."
+  },
+  {
+    "most_used": "Location locator",
+    "ui_change": "Different colours",
+    "appealing": "Very appealing",
+    "time": "1 – 3 minutes",
+    "features": [
+      "navigation",
+      "layout"
+    ],
+    "feedback": "Good"
+  },
+  {
+    "most_used": "Display",
+    "ui_change": "Scroll",
+    "appealing": "Appealing",
+    "time": "3 – 5 minutes",
+    "features": [
+      "readability"
+    ],
+    "feedback": "More selection would be good."
   }
 ]
